@@ -27,7 +27,7 @@ class Control:
     def div(self, a, b):
         try:
             if(b==0):
-                raise Exception("Divisor Error")
+                raise Exception("Divisor Error by o")
             
         except Exception as e:
             return e
